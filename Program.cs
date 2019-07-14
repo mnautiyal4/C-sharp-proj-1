@@ -50,11 +50,11 @@ namespace ConsoleApp1
             //}
 
             //
-            //string s1 = "hi";
-            //string s2 = s1;
-            //Console.WriteLine(s1 == s2 ? true : false);
-            //Console.WriteLine(object.ReferenceEquals(s1,s2) ? true : false);
-            //Console.ReadKey();
+            string s1 = "hi";
+            string s2 = s1;
+           Console.WriteLine(s1 == s2 ? true : false);
+            Console.WriteLine(object.ReferenceEquals(s1,s2) ? true : false);
+            Console.ReadKey();
 
             First obj1 = new Second();
             Console.WriteLine(obj1.value);
